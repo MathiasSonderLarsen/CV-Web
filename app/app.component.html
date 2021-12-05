@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathiasLarsenCV</title>
+</head>
+<body>
+    <section class="menuContainer">
+        <img class= "profilePic" src="assets/MathiasLarsen.jpg" alt="">
+        <ul>
+            <li>About</li>
+            <li>Experince</li>
+            <li>Education</li>
+            <li>Skills</li>
+            <li>Interests</li>
+            <li>Contact</li>
+        </ul>
+    </section> 
+
+    <section class="contentContainer">
+        <div>
+            <h2 class="name">Mathias Sønder Larsen</h2>
+            <div class="textSpacer"></div>
+            <div class="textSpacer"></div>
+            <p class="profileText">What would my friends say about me, if you asked? I am a dedicated and ambitious person who always takes on projects wholeheartedly, if I believe in them.</p>
+            <div class="textSpacer"></div>
+            <p class="profileText">What would my girlfriend say? That this has resulted in 50 liters of mead in the bedroom, 1000 ice cream containers in the basement and that I can explain how the moon affects the tide while I solve a differential equation.</p>
+            <div class="textSpacer"></div>
+            <p class="profileText">How do I describe myself? That is a tough one. The short answer is that my heart beats especially for two things: to find new and better ways to do things - and become the best I can at what I do.</p>
+            <div class="textSpacer"></div>
+            <p class="profileText">Through the years I have realised that my full potential is only achieved when I am allowed to use my analytical side and my understanding of complex problems. That is why I feel especially at home in the field of software development - and it is here I see my future.</p> 
+            <div class="textSpacer"></div>
+            
+        </div>
+
+        <div class="contactBox">
+            <a class="contactLink" href="tel:22337797">Call me</a>
+            <a class="contectLinkMail" href="mailto:mathias.s.larsen99@gmail.com">E-mail me</a>    
+            <div class="textSpacer"></div>
+            
+        </div>
+        
+        <div class="chapterSpacer"></div>
+
+        <div class="chapterLine"></div>
+
+        <div class="chapterSpacer"></div>
+
+        <div>
+            <h1>Education</h1>
+            <button (click)="onClick()">change content</button><br><br>
+            <ng-container *ngIf="visible">
+                <p>text</p>
+            </ng-container>
+            
+              
+        </div>
+
+
+        <div class="experinceMain">
+            <div class="textSpacer"></div>
+            <div class="textSpacer"></div>
+
+            <h1>Experince</h1>
+            <div class="textSpacer"></div>
+            <div class="textSpacer"></div>
+            
+            <div class="jobBlock">
+                <div class="jobBlockLeft">
+                    <h3 class="employer">Assistance HR Partners</h3>
+                    <p class="jobTitle">CHEF</p>
+                    <p class="decription">Substitute chef working short term temp jobs in canteens. Primarily in the hot kitchen, but also all around.</p>
+                </div>
+
+                <div class="centerLine">
+                    <div class="timeLineCircle2"></div>
+                </div>
+                <div class="dateSpacer"></div>
+                <p class="dateRight2">09/2021 - Present</p>
+            </div>
+
+            <div class="jobBlock">
+                    <div class="dateSpacer"></div>
+                    <p class="dateLeft2">11/2019 - 09/2021</p>
+                <div class="centerLine">
+                    <div class="timeLineCircle2"></div>
+                </div>
+                <div class="jobBlockRight">
+                    <h3 class="employer">Caféen i Ishøj Idræts og Fritidscenter</h3>
+                    <p class="jobTitle">HEAD CHEF</p>
+                    <p class="decription">Responsible for the hot kitchen, menu creation, roster, economic overview and working with the marketing team.</p>
+                </div>
+            </div>
+            
+            <div class="jobBlock">
+                <div class="jobBlockLeft">
+                    <h3 class="employer">Assistance HR Partners</h3>
+                    <p class="jobTitle">CHEF</p>
+                    <p class="decription">Substitute chef working short term temp jobs in canteens. Primarily in the hot kitchen, but also all around.</p>
+                </div>
+
+                <div class="centerLine">
+                    <div class="timeLineCircle2"></div>
+                </div>
+                <div class="dateSpacer"></div>
+                <p class="dateRight2">08/2019 - 11/2019</p>
+            </div>
+
+            <div class="jobBlock">
+                    <div class="dateSpacer"></div>
+                    <p class="dateLeft2">01/2014 - 12/2014</p>
+                <div class="centerLine">
+                    <div class="timeLineCircle2"></div>
+                </div>
+                <div class="jobBlockRight">
+                    <h3 class="employer">Café Nordisk</h3>
+                    <p class="jobTitle">WAITER STUDENT JOB</p>
+                    <p class="decription">Customer service, serving food, preparing beverages</p>
+                </div>
+            </div>
+            
+            <div class="jobBlock">
+                <div class="jobBlockLeft">
+                    <h3 class="employer">Danske Bank Canteen Glostrup</h3>
+                    <p class="jobTitle">CHEF</p>
+                    <p class="decription">Responsible for preparing the hot meal for the bank's employees.</p>
+                </div>
+
+                <div class="centerLine">
+                    <div class="timeLineCircle2"></div>
+                </div>
+                <div class="dateSpacer"></div>
+                <p class="dateRight2">01/2013 - 12/2013</p>
+            </div>
+
+            <div class="jobBlock">
+                    <div class="dateSpacer"></div>
+                    <p class="dateLeft2">11/2011 - 12/2012</p>
+                <div class="centerLine">
+                    <div class="timeLineCircle2"></div>
+                </div>
+                <div class="jobBlockRight">
+                    <h3 class="employer">Bistro Bobo</h3>
+                    <p class="jobTitle">HEAD CHEF</p>
+                    <p class="decription">A la carte French Bistro. Responsibilities include ordering materials, roster and menu creation. Day to day operations.</p>
+                </div>
+            </div>
+            
+            <div class="jobBlock">
+                <div class="jobBlockLeft">
+                    <h3 class="employer">Nordisk Steakhouse</h3>
+                    <p class="jobTitle">CHEF</p>
+                    <p class="decription">Classic French inspired steakhouse. Responsible for preparing starters, mains and desserts in a small team.</p>
+                </div>
+
+                <div class="centerLine">
+                    <div class="timeLineCircle2"></div>
+                </div>
+                <div class="dateSpacer"></div>
+                <p class="dateRight2">06/2011 - 10/2011</p>
+            </div>
+
+            <div class="jobBlock">
+                    <div class="dateSpacer"></div>
+                    <p class="dateLeft2">01/2011 - 06/2011</p>
+                <div class="centerLine">
+                    <div class="timeLineCircle2"></div>
+                </div>
+                <div class="jobBlockRight">
+                    <h3 class="employer">Bistro Bobo</h3>
+                    <p class="jobTitle">CHEF</p>
+                    <p class="decription">A la carte French Bistro. Responsible for preparing starters, mains and desserts in a small team</p>
+                </div>
+            </div>
+            
+            <div class="jobBlock">
+                <div class="jobBlockLeft">
+                    <h3 class="employer">St. Chirstopher’s inn. London</h3>
+                    <p class="jobTitle">HEAD CHEF</p>
+                    <p class="decription">Classic British pub food. Responsible for a small team, creating menus, rosters and doing administrative work needed by the acountains.</p>
+                </div>
+
+                <div class="centerLine">
+                    <div class="timeLineCircle2"></div>
+                </div>
+                <div class="dateSpacer"></div>
+                <p class="dateRight2">01/2010 - 11/2010</p>
+            </div>
+
+            <div class="jobBlock">
+                    <div class="dateSpacer"></div>
+                    <p class="dateLeft2">03/2008 - 01/2009</p>
+                <div class="centerLine">
+                    <div class="timeLineCircle2"></div>
+                </div>
+                <div class="jobBlockRight">
+                    <h3 class="employer">English’s of Brighton</h3>
+                    <p class="jobTitle">CHEF TRAINEE</p>
+                    <p class="decription">Classic British seafood restaurant. Cooking starters, mains and desserts.</p>
+                </div>
+            </div>
+            
+            <div class="jobBlock">
+                <div class="jobBlockLeft">
+                    <h3 class="employer">Sankt Gertruds Kloster</h3>
+                    <p class="jobTitle">CHEF TRAINEE</p>
+                    <p class="decription">Fine French inspired dining. Appetizers, starters, fish, garinture and desserts.</p>
+                </div>
+
+                <div class="centerLine">
+                    <div class="timeLineCircle2"></div>
+                </div>
+                <div class="dateSpacer"></div>
+                <p class="dateRight2">09/2005 - 09/2007</p>
+            </div>
+
+
+
+        </div>
+
+
+        
+        </section>  
+
+</body>
+</html>
+

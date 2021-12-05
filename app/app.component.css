@@ -1,0 +1,367 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    text-align: center;
+    margin: 0px;
+}
+
+.name{
+    margin-top: 100px;
+}
+
+.chapterSpacer{
+    height: 100px;
+    position: relative;
+}
+
+.menuContainer {
+    background-color: rgb(56, 56, 66);   
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: fixed;
+}
+
+.profilePic{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    padding-top: 20px;
+    
+}
+
+.contentContainer{
+    width: 80%;
+    float: left;
+    overflow-y: scroll;
+    left: 20%;
+    position: absolute;
+    height: 100%;
+}
+
+.textSpacer{
+    height: 30px;
+}
+
+.profileText{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    margin: 0px;
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+
+.contactLink{
+    background-color: rgb(56, 56, 66);
+    color: white;
+    font-size: 17px;
+    width: 8%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    left: 40%;
+    margin-top: 30px;
+    position: relative;
+}
+
+.contectLinkMail{
+    background-color: rgb(56, 56, 66);
+    color: white;
+    font-size: 17px;
+    width: 8%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    right: 40%;
+    margin-top: 30px;
+    position: relative;
+}
+
+.chapterLine{
+    height: 1.5px;
+    background-color: darkgray;
+    margin-left: 30%;
+    width: 40%;
+    position: relative;
+}
+
+.experinceChapter{
+    background-image: url(src\assets\Background.png);
+    background-size: 40%;
+}
+
+.timeLine{
+    height: 1750px;
+    width: 4px;
+    
+    position: absolute;
+    left: 50%;
+    margin-top: 10px;
+    border-left: 4px dotted rgb(56, 56, 66);
+    
+}
+
+.timeLineCircle{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background-color: rgb(56, 56, 66);
+    margin-top: 75px;
+    margin-left: -3px;
+    margin-bottom: 150px;
+    left: 50%;
+    box-shadow: 0 0 0 4px rgb(56, 56, 66);
+}
+
+.jobLeft{
+    position: relative;
+    border: solid rgb(102, 102, 130);
+    left: 15%; 
+    width: 30%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.jobBlockLeft{
+    position: relative;
+    border: 3px solid rgb(102, 102, 130);
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    left: -5%;
+}
+
+.jobBlockRight{
+    position: relative;
+    border: solid rgb(102, 102, 130);
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    left: 5%;
+
+}
+
+.centerLine{
+    border-left: 4px dotted rgb(56, 56, 66);
+    width: 4px; 
+    height: 250px;
+    margin-top: 4px;
+}
+
+.timeLineCircle2{
+    position: relative;
+    min-width: 20px;
+    max-width: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    margin-top: 50%;
+    background-color: rgb(56, 56, 66);
+    left: -12px;
+    transform: rotate(45deg);
+    margin-top: 115px;
+}
+
+.dateRight2{
+    float: left;
+    display: flex;
+    font-size: 20px;
+    width: 30%;
+    position: relative;
+    font-family: 'Fredericka the Great', cursive;
+    left: 5%;
+}
+
+.dateLeft2{
+    display: flex;
+    font-size: 20px;
+    width: 30%;
+    position: relative;
+    font-family: 'Fredericka the Great', cursive;
+    left: -5%;  
+    justify-content: right; 
+}
+
+.dateSpacer{
+    width: 6px;
+}
+
+.jobBlock{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.dateRight{
+    float: right;
+    left: -30%;
+    font-size: 20px;
+    margin-top: 72px;
+    position: relative;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.dateLeft{
+    font-size: 20px;
+    position: relative;
+    font-family: 'Fredericka the Great', cursive;
+    left: 28%;
+    margin-top: 65px;
+    float: left;
+    width: 10%;
+
+}
+
+.jobRight{
+    position: relative;
+    border: solid rgb(102, 102, 130);
+    margin-top: 10px;
+    width: 30%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+    left: 55%;
+    margin-top: 10px;
+}
+
+
+
+.jobTitle{
+    position: relative;
+    margin: 10px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(119, 119, 141);
+}
+
+
+.employer{
+    margin: 10px;
+    color: rgb(119, 119, 141);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.decription{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(119, 119, 141);
+}
+
+.block{
+    position: relative;
+    margin: 175px;
+}
+
+.experinceMain{
+    background-image: url(src\assets\Background.png);
+    background-size: 40%;
+}
+
+.collapsible{
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    margin: 0px;
+}
+
+.arrowDown{
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.collapsibleText{
+    margin-top: 10px;
+    padding: 0;
+    float: left;
+    font-size: 20px;
+}
+
+.active, .collapsible:hover{
+    background-color: burlywood;
+}
+
+.content{
+    display: none;
+    overflow: hidden;
+}
+
+.openCloseContainer{
+    position: relative;
+    height: 30px;
+    margin-top: -6px;
+
+    
+}
+
+.openCloseText{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.collapsibleLvl2{
+    height: 30px;
+    width: 95%;
+    margin-left: 5%;
+    position: relative;
+}
+
+.collapsibleTextLvl2{
+    float: left;
+}
+
+.arrowDownLvl2{
+    height: 30px;
+    float: right;
+}
+
+.openCloseContainer2{
+    position: relative;
+    height: 0px;
+    margin-top: -6px;
+
+    
+}
+
+.contactBox{
+    position: relative;
+}
